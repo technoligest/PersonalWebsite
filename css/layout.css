@@ -27,7 +27,7 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
+/*
 header {
    position: relative;
    height: 800px;
@@ -37,6 +37,21 @@ header {
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
+   overflow: hidden;
+}*/
+
+header {
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   background: #1F1F1F url(../images/header-background.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+    text-align: center;
+   background-attachment: fixed;
+
+   
+   
    overflow: hidden;
 }
 
@@ -207,9 +222,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 200px;
+   height: 200px;
+   border-radius:100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -326,7 +341,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 80%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
@@ -637,6 +652,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
+
 
 #testimonials {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
