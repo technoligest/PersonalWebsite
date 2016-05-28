@@ -44,7 +44,7 @@ header {
    position: relative;
    min-height: 200px;
    width: 100%;
-   background: #1F1F1F url(../images/header-background.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/bk.jpeg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
     text-align: center;
@@ -233,7 +233,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
-   margin-top: 6px;
+   margin-top: 60px;
    background: #444;
 }
 #about .download .button:hover {
@@ -648,6 +648,73 @@ call-to-action .button {
 	font-family: 'opensans-semibold', sans-serif; 
 	color: #D8D8D8;
 }
+/* ------------------------------------------------------------------
+/* g. Personal Quote
+/* ------------------------------------------------------------------ */
+
+/*Personal Quote Section*/
+
+#personalQuote {
+   background: #1F1F1F url(../images/nightblurr.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+}
+
+#personalQuote .text-container {
+   padding-top: 100px;
+   padding-bottom: 66px;
+}
+#personalQuote h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;   
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#personalQuote h1 span { display: none; }
+#personalQuote .header-col { padding-top: 9px; }
+#personalQuote .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f10d";
+   padding-right: 10px;
+   font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+
+/*	Blockquotes */
+#personalQuote blockquote {
+   margin: 0 0px 30px 0px;
+   padding-left: 0;
+   position: relative;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+#personalQuote blockquote:before { content: none; }
+#personalQuote blockquote p {
+   font-family: 'librebaskerville-italic', serif;
+   padding: 0;
+   font-size: 28px;
+   line-height: 48px;
+   color: #fff
+}
+#personalQuote blockquote cite {
+   display: block;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 18px;
+   color: #fff;
+}
+#personalQuote blockquote cite:before { content: "\2014 \0020"; }
+#personalQuote blockquote cite a,
+#personalQuote blockquote cite a:visited { color: #8B9798; border: none }
+
 
 /* ------------------------------------------------------------------
 /* g. Testimonials
@@ -665,6 +732,7 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
+
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
@@ -1019,4 +1087,7 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+
 

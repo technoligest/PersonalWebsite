@@ -119,11 +119,26 @@
 
 
 /*----------------------------------------------------*/
-/*	Flexslider
+/*	Flexslider for bottom testimonial quotes
 /*----------------------------------------------------*/
    $('.flexslider').flexslider({
       namespace: "flex-",
       controlsContainer: ".flex-container",
+      animation: 'slide',
+      controlNav: true,
+      directionNav: false,
+      smoothHeight: true,
+      slideshowSpeed: 7000,
+      animationSpeed: 600,
+      randomize: false,
+   });
+     
+/*----------------------------------------------------*/
+/*	Flexslider for personal quote on top
+/*----------------------------------------------------*/ 
+     $('.flexslider1').flexslider({
+      namespace: "flex-",
+      controlsContainer: ".flex-container1",
       animation: 'slide',
       controlNav: true,
       directionNav: false,
