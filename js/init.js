@@ -140,7 +140,9 @@
       namespace: "flex-",
       controlsContainer: ".flex-container1",
       animation: 'slide',
-      controlNav: true,
+      controlNav: false,
+      touch: false,
+      
       directionNav: false,
       smoothHeight: true,
       slideshowSpeed: 7000,
